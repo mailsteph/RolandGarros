@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/WEBSTEPH/Netbeans%20projects/rgWebAppli/src/java/servlet/JoueurServlet.java</file>
+            <file>file:/D:/WEBSTEPH/Netbeans%20projects/rgWebAppli/web/joueur.jsp</file>
+            <file>file:/D:/WEBSTEPH/Netbeans%20projects/rgWebAppli/src/java/servlet/AddJoueurServlet.java</file>
+            <file>file:/D:/WEBSTEPH/Netbeans%20projects/rgWebAppli/src/java/servlet/DeleteJoueurServlet.java</file>
+            <file>file:/D:/WEBSTEPH/Netbeans%20projects/rgWebAppli/src/java/DAO/ArbitreDAOMySQL.java</file>
+            <file>file:/D:/WEBSTEPH/Netbeans%20projects/rgWebAppli/src/java/DAO/ArbitreDAO.java</file>
+            <file>file:/D:/WEBSTEPH/Netbeans%20projects/rgWebAppli/src/java/entities/Arbitre.java</file>
+            <file>file:/D:/WEBSTEPH/Netbeans%20projects/rgWebAppli/src/java/servlet/HomeServlet.java</file>
+            <file>file:/D:/WEBSTEPH/Netbeans%20projects/rgWebAppli/web/arbitre.html</file>
+            <file>file:/D:/WEBSTEPH/Netbeans%20projects/rgWebAppli/src/java/DAO/JoueurDAOMySQL.java</file>
+        </group>
+    </open-files>
+</project-private>

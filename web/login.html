@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <!-- La page de connexion marche, la liste des utilisateurs est importée depuis la base de donnée et la connexion ne se fait qu'avec de bons identifiants-->
+    <head>
+        <title>Connexion</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="FeuilleCSS.css" />
+    </head>
+
+    <body>
+
+        <div class="container col-md-12">
+
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+
+                    <div class="navbar-header">
+                        <img class="nav navbar-nav thumbnail" src="images/LogoRG.jpg" alt="Logo Roland-Garros"/>
+                        <a class="navbar-brand" href="#">ROLAND-GARROS</a>
+                    </div>
+
+                </div>
+            </nav>
+
+            <div class="col-md-offset-1 col-md-9 smallscreen"> 
+                <section class="jumbotron col-md-12 col-sm-12 col-xs-12">
+
+                    <h2><strong>Connexion</strong></h2>
+                    <p>Connectez-vous en indiquant vos identifiants ou en vous enregistrant.<p>
+                </section>
+
+                <section>
+                    <div class="form-group col-md-offset-4 col-md-4">
+                        <form method='post' action='login'>    
+                            <input type="text" name="nom" maxlength="20" id="iNom" placeholder="Votre nom" required="required" class="form-control"/> 
+                            <input type="password" name="mdp" maxlength="20" id="iMDP" placeholder="Votre mot de passe" required="required" class="form-control"/> 
+                            <!--<p><input type="checkbox" name="souvenir" id="iSouvenir" /><strong>  Se souvenir de moi</strong></p>-->
+                            <p><input type="submit" value="Se connecter" class="form-control btn-primary" /></p>
+
+                        </form>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="form-group col-md-offset-4 col-md-4">
+
+                        <form method="get" action="signup.html">   
+                            <label>Nouvel utilisateur ?</label>
+                            <input type="submit" value="S'enregistrer" class="form-control btn-primary"/>
+                        </form>
+                    </div>
+                </section>
+
+            </div>
+
+            <footer class="col-md-12">&#9400; 2017 Copyright, Inc.</footer>
+        </div>
+    </body>
+</html>

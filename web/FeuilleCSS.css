@@ -1,0 +1,101 @@
+
+.thumbnail{
+    width: 50px;
+    height: 50px;
+    margin-top:0px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+nav {
+    height: 50px;
+}
+@media only screen and (max-width : 767px) {
+    nav {
+        height:auto;
+    }
+    .container-fluid{
+        margin-left: 15px;
+    }
+    .smallscreen{
+        margin-top: 200px;
+    }
+}
+
+.jumbotron{
+    margin-top: 80px;
+}
+
+.header{
+    margin-top: 80px;
+}
+
+#iNom {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    height : 50px;
+}
+
+#iMDP {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    height : 50px;
+}
+
+#checkbox {
+    text-align: left;
+}
+
+footer {
+    font-size: small;
+    text-align: right;
+    margin-top: 50px;
+}
+
+.imgmenu{
+    width: 300px;
+    height: 200px;
+    margin: 10px; 
+    border : solid 1px;
+}
+
+.menu{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+.row {
+    margin : 10px;
+}
+
+.nouvJoueur {
+    margin-top : 50px;
+}
+
+aside {
+    margin-top : 100px;
+}
+
+#entrez {
+    margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+
+#index {
+    background-image: url('images/Terrain.jpg');
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+#bienvenue {
+    text-align: center;
+    color : white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+.login {
+    text-align: center;
+}

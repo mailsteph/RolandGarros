@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <!-- La page d'enregistrement marche mais aucune servlet n'a été faite pour ajouter des utilisateurs -->
+    <head>
+        <title>Enregistrement</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="FeuilleCSS.css" />
+    </head>
+
+    <body>
+
+        <div class="container col-md-12">
+
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+
+                    <div class="navbar-header">
+                        <img class="nav navbar-nav thumbnail" src="images/LogoRG.jpg" alt="Logo Roland-Garros"/>
+                        <a class="navbar-brand" href="#">ROLAND-GARROS</a>
+                    </div>
+
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="home.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="col-md-offset-1 col-md-9 smallscreen"> 
+                <section class="jumbotron col-md-12 col-sm-12 col-xs-12">
+
+                    <h2><strong>Enregistrement d'un nouvel utilisateur</strong></h2>
+                    <p>S'enregistrer en indiquant son nom, son prénom, son mot de passe, son sexe et sa catégorie (organisateur ou journaliste).<p>
+                </section>
+
+                <section class="col-md-6">
+
+                    <div class="row">    
+                        <div class="form-group">
+                            <label for="nom" class="col-md-4 control-label">Nom</label>
+                            <div class="col-md-8">
+                                <input type="text" name="nom" maxlength="30" id="nom" required="required" class="form-control"/> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">    
+                        <div class="form-group">
+                            <label for="prenom" class="col-md-4 control-label">Prénom</label>
+                            <div class="col-md-8">
+                                <input type="text" name="prenom" maxlength="30" id="prenom" required="required" class="form-control"/> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">    
+                        <div class="form-group">
+                            <label for="mdp" class="col-md-4 control-label">Mot de passe</label>
+                            <div class="col-md-8">
+                                <input type='password' name="mdp" id="mdp" required="required" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">    
+                        <div class="form-group">
+                            <label for="sexe" class="col-md-4 control-label">Sexe</label>
+                            <div class="col-md-8">
+                                <select name="sexe" id="sexe" required="required" class="form-control">
+                                    <option>Féminin</option>
+                                    <option>Masculin</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">    
+                        <div class="form-group">
+                            <label for="catg" class="col-md-4 control-label">Catégorie</label>
+                            <div class="col-md-8">
+                                <select name="catg" id="catg" required="required" class="form-control">
+                                    <option>Organisateur</option>
+                                    <option>Journaliste</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row col-md-8">    
+                        <div class="form-group">
+                            <input type="submit" value="S'enregistrer" class="form-control btn-primary" />
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <footer class="col-md-12">&#9400; 2017 Copyright, Inc.</footer>
+        </div>
+    </body>
+</html>

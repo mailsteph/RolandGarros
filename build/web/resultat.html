@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <!-- La page Résultat marche mais aucune servlet n'a été faite pour ajouter des arbitres, les listes sont statiques -->
+    <head>
+        <title>Résultat</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="FeuilleCSS.css" />
+    </head>
+
+    <body>
+
+        <div class="container col-md-12">
+
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+
+                    <div class="navbar-header">
+                        <img class="nav navbar-nav thumbnail" src="images/LogoRG.jpg" alt="Logo Roland-Garros"/>
+                        <a class="navbar-brand" href="#">ROLAND-GARROS</a>
+                    </div>
+
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="home.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+
+            <div class="col-md-offset-1 col-md-9 smallscreen"> 
+
+                <section class="jumbotron col-md-12 col-sm-12 col-xs-12">
+
+                    <h2><strong>Enregistrer les résultats</strong></h2>
+                    <br />
+                    <p>Enregistrer les résultats d'une rencontre en indiquant son identifiant, sa durée et les résultats par set des joueurs 1 et 2.</p>
+                </section>
+
+                <section class="col-md-6">
+                    <div class="row">  
+                        <div class="form-group">
+                            <label for="idRencontre" class="col-md-4 control-label">Rencontre</label>
+                            <div class="col-md-8">
+                                <select name="idRencontre" id="idRencontre" required="required" class="form-control">
+                                    <option>1</option>
+                                </select>      
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">    
+                        <div class="form-group">
+                            <label for="duree" class="col-md-4 control-label">Durée</label>
+                            <div class="col-md-8">
+                                <input type="time" name="duree" id="duree" required="required" pattern="[0-2][0-9]:[0-9][0-9]" placeholder="hh:mm" class="form-control">
+
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="row">
+                        <label class="col-md-4 control-label">Joueur 1</label>
+                        <div id="nomJoueur1" class="col-md-8">
+                            <em><strong>Nom du joueur 1</strong></em>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="col-md-12"> 
+                    <div class="row">    
+                        <div class="form-group">
+                            <label for="score1" class="col-md-2 control-label">Score</label>
+                            <div class="col-md-10"  >
+                                <p class="col-md-2 set"><input type="text" name="set1J1" maxlength="1" placeholder='Set 1' required="required" class="form-control"/></p>
+                                <p class="col-md-2 set"><input type="text" name="set2J1" maxlength="1" placeholder='Set 2' required="required" class="form-control"/></p>
+                                <p class="col-md-2 set"><input type="text" name="set3J1" maxlength="1" placeholder='Set 3' required="required" class="form-control"/></p>
+                                <p class="col-md-2 set"><input type="text" name="set4J1" maxlength="1" placeholder='Set 4' required="required" class="form-control"/></p>
+                                <p class="col-md-2 set"><input type="text" name="set5J1" maxlength="1" placeholder='Set 5' required="required" class="form-control"/></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-md-6"> 
+
+                    <div class="row">
+                        <label class="col-md-4 control-label">Joueur 2</label>
+                        <div id="nomJoueur2" class="col-md-8">
+                            <em><strong>Nom du joueur 2</strong></em>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="col-md-12"> 
+                    <div class="row">    
+                        <div class="form-group">
+                            <label for="score2" class="col-md-2 control-label">Score</label>
+                            <div class="col-md-10"  >
+                                <p class="col-md-2 set"><input type="text" name="set1J2" maxlength="1" placeholder='Set 1' required="required" class="form-control"/></p>
+                                <p class="col-md-2 set"><input type="text" name="set2J2" maxlength="1" placeholder='Set 2' required="required" class="form-control"/></p>
+                                <p class="col-md-2 set"><input type="text" name="set3J2" maxlength="1" placeholder='Set 3' required="required" class="form-control"/></p>
+                                <p class="col-md-2 set"><input type="text" name="set4J2" maxlength="1" placeholder='Set 4' required="required" class="form-control"/></p>
+                                <p class="col-md-2 set"><input type="text" name="set5J2" maxlength="1" placeholder='Set 5' required="required" class="form-control"/></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <aside class="col-md-2">
+
+                <ul class="list-group">
+                    <li class="list-group-item active">Liste des résultats</li>
+                    <li class="list-group-item"><a href="#">Rencontre 1 - 02:05 - Wawrinka (2 3 1) VS Nadal (6 6 6)</a></li>
+
+                </ul>
+            </aside>  
+
+            <footer class="col-md-12">&#9400; 2017 Copyright, Inc.</footer>
+        </div>
+    </body>
+</html>   

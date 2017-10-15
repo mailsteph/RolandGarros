@@ -1,0 +1,21 @@
+SMAP
+joueur_jsp.java
+JSP
+*S JSP
+*F
++ 0 joueur.jsp
+joueur.jsp
++ 1 listeJoueur.jsp
+listeJoueur.jsp
+*L
+1,138:64
+5#1,14:202
+138#0,6:215
+143:250,12
+144:262
+145:263,5
+146:268
+147:269,3
+148,6:272
+153,10:223
+*E
